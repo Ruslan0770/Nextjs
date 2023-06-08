@@ -1,0 +1,61 @@
+.checkLeft .inputEdit {
+  color: #060606;
+  position: relative;
+  left: -23px;
+  width: 95px;
+  height: 95px;
+  font-weight: 700;
+  border-radius: 12px;
+  transform: rotate(-0.4deg);
+  background: rgba(255, 255, 255, 1);
+  margin-top: 40px;
+  margin-left: 20px;
+  color: black;
+  font-size: 40px;
+  line-height: 49px;
+  text-align: center;
+  outline: none;
+  border: 3px solid rgba(83, 103, 231, 1);
+}
+
+.CheckHeader {
+  position: relative;
+}
+
+.h2Edit {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 85.33px;
+}
+.checkLeft {
+  position: absolute;
+  left: 220px;
+  top: 70px;
+}
+.checkLeft p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24.38px;
+  margin-top: 15px;
+}
+.checkRight {
+  position: absolute;
+  left: 752px;
+  top: -100px;
+}
+.checkLeft button {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24.38px;
+  border-radius: 12px;
+  margin-top: 50px;
+  border: none;
+  outline: none;
+  background: #ffcf00;
+  width: 217px;
+  height: 54px;
+}
+
+.CheckHeader a {
+  display: block;
+}

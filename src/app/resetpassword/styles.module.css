@@ -1,0 +1,83 @@
+.rpLeft input {
+  display: block;
+  width: 396px;
+  color: white;
+  height: 60px;
+  left: 0px;
+  top: 0px;
+  transform: rotate(-0.4deg);
+  background: rgba(255, 255, 255, 1);
+  border-radius: 12px;
+  margin-top: 40px;
+  color: black;
+  padding-left: 20px;
+  font-size: 18px;
+  outline: none;
+  border: 1px solid #5367e7;
+}
+.rpLeft input::placeholder {
+  color: rgba(136, 136, 136, 1);
+}
+
+.rpHeader {
+  position: relative;
+}
+
+.h2Edit {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 85.33px;
+}
+.rpLeft {
+  position: absolute;
+  left: 220px;
+  top: 50px;
+}
+.rpLeft p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24.38px;
+  margin-top: 15px;
+}
+.rpRight {
+  position: absolute;
+  left: 752px;
+  top: -80px;
+}
+.rpLeft button {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24.38px;
+  border-radius: 12px;
+  margin-top: 50px;
+  border: none;
+  outline: none;
+  background: #ffcf00;
+  width: 217px;
+  height: 54px;
+}
+
+.rpLeft h6 {
+  position: absolute;
+  width: 158px;
+  height: 22px;
+  left: calc(50% - -108px / 2 + 18px);
+  top: calc(50% - -230px / 2 + 0.5px);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 136%;
+  color: #060606;
+}
+.icons {
+  position: absolute;
+  left: 370px;
+  top: 285px;
+  color: black;
+}
+.iconsUp {
+  position: absolute;
+  color: #000;
+  left: 370px;
+  top: 185px;
+}

@@ -1,0 +1,72 @@
+.fpLeft input {
+  display: block;
+  width: 396px;
+  color: white;
+  height: 60px;
+  left: 0px;
+  top: 0px;
+  transform: rotate(-0.4deg);
+  background: rgba(255, 255, 255, 1);
+  border-radius: 12px;
+  margin-top: 60px;
+  color: #000;
+  padding-left: 20px;
+  font-size: 18px;
+  outline: none;
+  border: 1px solid #5367e7;
+}
+.fpLeft input::placeholder {
+  color: rgba(136, 136, 136, 1);
+}
+
+.fpHeader {
+  position: relative;
+}
+
+.fpRight {
+  position: absolute;
+  left: 810px;
+  top: -70px;
+}
+.fpLeft {
+  position: absolute;
+  left: 220px;
+  top: 70px;
+}
+
+.h2Edit {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 85.33px;
+}
+
+.fpLeft p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24.38px;
+  margin-top: 15px;
+}
+.fpLeft .buttonEdit {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24.38px;
+  border-radius: 12px;
+  margin-top: 50px;
+  border: none;
+  outline: none;
+  background: #ffcf00;
+  width: 197px;
+  height: 54px;
+}
+.fpLeft .buttonEdit2 {
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 20px;
+  width: 197px;
+  height: 54px;
+  border: 1px solid #ffcf00;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-left: 10px;
+  line-height: 24.38px;
+}
