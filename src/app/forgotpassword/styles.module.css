@@ -14,6 +14,7 @@
   font-size: 18px;
   outline: none;
   border: 1px solid #5367e7;
+  cursor: pointer;
 }
 .fpLeft input::placeholder {
   color: rgba(136, 136, 136, 1);
@@ -24,14 +25,24 @@
 }
 
 .fpRight {
-  position: absolute;
+  /* position: absolute;
   left: 810px;
-  top: -70px;
+  top: -70px; */
+  width: 35%;
 }
 .fpLeft {
-  position: absolute;
+  /* position: absolute;
   left: 220px;
-  top: 70px;
+  top: 70px; */
+  width: 40%;
+  margin-top: -40px;
+}
+.fpAll{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: -65px;
 }
 
 .h2Edit {

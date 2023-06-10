@@ -14,6 +14,7 @@
   font-size: 18px;
   outline: none;
   border: 1px solid #5367e7;
+  cursor: pointer;
 }
 .rpLeft input::placeholder {
   color: rgba(136, 136, 136, 1);
@@ -29,20 +30,29 @@
   line-height: 85.33px;
 }
 .rpLeft {
-  position: absolute;
+  /* position: absolute;
   left: 220px;
-  top: 50px;
+  top: 50px; */
+  width: 38%;
+}
+.rpRight {
+  /* position: absolute;
+  left: 752px;
+  top: -80px; */
+  width: 35%;
+}
+.rpAll{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: -65px;
 }
 .rpLeft p {
   font-weight: 400;
   font-size: 20px;
   line-height: 24.38px;
   margin-top: 15px;
-}
-.rpRight {
-  position: absolute;
-  left: 752px;
-  top: -80px;
 }
 .rpLeft button {
   font-weight: 600;
@@ -71,13 +81,13 @@
 }
 .icons {
   position: absolute;
-  left: 370px;
-  top: 285px;
+  left: 575px;
+  top: 400px;
   color: black;
 }
 .iconsUp {
   position: absolute;
   color: #000;
-  left: 370px;
-  top: 185px;
+  left: 575px;
+  top: 295px;
 }

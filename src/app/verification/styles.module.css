@@ -16,6 +16,7 @@
   text-align: center;
   outline: none;
   border: 3px solid rgba(83, 103, 231, 1);
+  cursor: pointer;
 }
 
 .CheckHeader {
@@ -28,20 +29,30 @@
   line-height: 85.33px;
 }
 .checkLeft {
-  position: absolute;
+  /* position: absolute;
   left: 220px;
-  top: 70px;
+  top: 70px; */
+  width: 35%;
+}
+.checkRight {
+  /* position: absolute;
+  left: 752px;
+  top: -100px; */
+  width: 40%;
+  margin-top: -20px;
+}
+.checkAll{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: -65px;
 }
 .checkLeft p {
   font-weight: 400;
   font-size: 20px;
   line-height: 24.38px;
   margin-top: 15px;
-}
-.checkRight {
-  position: absolute;
-  left: 752px;
-  top: -100px;
 }
 .checkLeft button {
   font-weight: 600;

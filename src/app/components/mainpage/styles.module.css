@@ -1,10 +1,18 @@
 .LoginHeader {
   position: relative;
 }
+.loginAll{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: -63px;
+}
 .loginLeft {
-  position: absolute;
+  /* position: absolute;
   left: 220px;
-  top: 50px;
+  top: 50px; */
+  width: 35%;
 }
 .loginLeft input {
   display: block;
@@ -22,6 +30,7 @@
   font-size: 18px;
   outline: none;
   border: 1px solid #5367e7;
+  cursor: pointer;
 }
 .loginLeft input::placeholder {
   color: rgba(136, 136, 136, 1);
@@ -62,9 +71,10 @@
 }
 
 .loginRight {
-  position: absolute;
+  /* position: absolute;
   left: 752px;
-  top: -90px;
+  top: -90px; */
+  width: 40%;
 }
 
 .h2Edit {
@@ -75,8 +85,8 @@
 
 .icons {
   position: absolute;
-  left: 370px;
-  top: 290px;
+  left: 560px;
+  top: 385px;
   color: black;
 }
 .LoginHeader a {
