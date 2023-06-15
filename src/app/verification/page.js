@@ -36,7 +36,7 @@ export default function Verification() {
               />
             );
           })}
-          <Link href="components/resetpassword">
+          <Link href="/resetpassword">
             <button className={styles.buttonEdit}>Təsdiq et</button>
           </Link>
         </div>

@@ -34,7 +34,7 @@ export default function MainPage() {
           <div className={styles.icons} onClick={() => setVisiblity(!visible)}>
             {visible ? <FaEye /> : <FaEyeSlash />}
           </div>
-          <Link href="/components/forgotpassword">
+          <Link href="/forgotpassword">
             <h6>Şifrəni unutdunuz?</h6>
           </Link>
           <button>Giriş</button>

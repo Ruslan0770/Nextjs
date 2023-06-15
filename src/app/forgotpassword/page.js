@@ -11,7 +11,7 @@ export default function ForgotPassword() {
           <h2 className={styles.h2Edit}>Şifrəni unutdunuz?</h2>
           <p>Zəhmət olmasa, mobil nömrənizi qeyd edin</p>
           <input type="number" placeholder="Mobil Nomre" />
-          <Link href="components/verification">
+          <Link href="/verification">
             <button className={styles.buttonEdit}>Göndər</button>
           </Link>
           <Link href="/">

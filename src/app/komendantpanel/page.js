@@ -1,6 +1,6 @@
 import React from 'react'
-import Card from "../komendantpanel/CardDetail/Card"
-import CardData from "./CardDetail/CardData"
+import Card from '../components/CardDetail/Card'
+import CardData from "../components/CardDetail/CardData"
 
 
 export default function KomendantPanel() {
