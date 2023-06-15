@@ -1,0 +1,126 @@
+.registerHeader input {
+    display: block;
+    width: 400px;
+    height: 60px;
+    font-style: normal;
+    background: #5367E7;
+    border-radius: 32px;
+    margin-top: 40px;
+    color: rgba(255, 255, 255, 1);
+    padding-left: 20px;
+    outline: none;
+    font-size: 20px;
+    border: 1px solid #5367e7;
+    cursor: pointer;
+}
+   
+  .registerLeft input::placeholder {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  
+  .registerHeader {
+    position: relative;
+  }
+  
+  .h2Edit {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 85.33px;
+  }
+  .registerLeft {
+    /* position: absolute;
+    left: 220px;
+    top: 50px; */
+    width: 38%;
+  }
+  .registerRight {
+    /* position: absolute;
+    left: 752px;
+    top: -80px; */
+    width: 35%;
+  }
+  .registerAll{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: -65px;
+  }
+  .registerLeft p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24.38px;
+    margin-top: 15px;
+  }
+  .registerLeft button {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24.38px;
+    border-radius: 45.977px;
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    background: #ffcf00;
+    width: 217px;
+    height: 54px;
+  }
+  
+  .registerLeft h6 {
+    position: absolute;
+    width: 158px;
+    height: 22px;
+    left: calc(50% - -108px / 2 + 18px);
+    top: calc(50% - -230px / 2 + 0.5px);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 136%;
+    color: #060606;
+  }
+.registerHeader .icons {
+    position: absolute;
+    left: 570px;
+    top: 420px;
+    color: #fff;
+  }
+  .registerHeader .iconsUp {
+    position: absolute;
+    color: #fff;
+    left: 570px;
+    top: 320px;
+  }
+  .registerHeader .checkbox{
+    width: 20px;
+    height: 17px;
+    border: 1.5px solid #494949;
+    margin-top: 20px;
+  }
+  .registerHeader .pEdit{
+    position: absolute;
+    bottom: 153.5px;
+    left: 235px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .registerHeader .reEntry{
+    display: flex;
+     align-items: center;
+     gap: 10px;   
+    margin-top: 15px;
+  }
+  .registerHeader h5{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+  }
+  .registerHeader .reEntry a{
+    font-style: normal;
+font-weight: 500;
+font-size: 19px;
+line-height: 23px;
+text-decoration: none;
+color: #5367E7;
+}

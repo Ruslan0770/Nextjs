@@ -19,6 +19,11 @@
 .fpLeft input::placeholder {
   color: rgba(136, 136, 136, 1);
 }
+.fpLeft input[type="number"]::-webkit-outer-spin-button,
+.fpLeft input[type="number"]::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+  margin: 0;
+}
 
 .fpHeader {
   position: relative;

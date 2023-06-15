@@ -1,6 +1,6 @@
 import styles from "./page.module.css";
 import Image from "next/image";
-import MainPage from "./components/mainpage";
+import MainPage from "./layout_items/mainpage";
 
 
 export default async function Home() {

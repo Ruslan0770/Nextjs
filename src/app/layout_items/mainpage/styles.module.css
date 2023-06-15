@@ -35,6 +35,12 @@
 .loginLeft input::placeholder {
   color: rgba(136, 136, 136, 1);
 }
+.loginLeft input[type="number"]::-webkit-outer-spin-button,
+.loginLeft input[type="number"]::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 
 .loginLeft p {
   font-weight: 400;

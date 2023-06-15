@@ -1,0 +1,112 @@
+.CardHeader {
+  background-color: rgba(255, 255, 255, 1);
+  text-align: center;
+}
+.Card {
+  display: inline-block;
+  margin-left: 50px;
+  border-radius: 12px;
+  filter: drop-shadow(0px 2px 14px rgba(46, 45, 116, 0.25));
+  border: 1px solid rgba(255, 255, 255, 1);
+  width: 270px;
+  height: 500px;
+  background: #ffffff;
+  text-align: left;
+}
+.Card:nth-last-child(2) {
+  background: #5367e7;
+  color: white;
+}
+.Card:nth-last-child(2) p {
+  color: rgba(218, 218, 218, 1);
+}
+.Card:nth-last-child(2) .Icons {
+  color: #ffcf00;
+}
+.Card:nth-last-child(2) .SpanItemsEdit {
+  color: #ffffff;
+}
+.Card:nth-last-child(2) .spanMonthEdit {
+  color: #b9b9b9;
+}
+.Card:nth-last-child(2) button {
+  background: #ffcf00;
+}
+.Card:nth-last-child(2) h3 {
+  color: #ffffff;
+}
+
+.CardAll {
+  margin-left: 25px;
+  margin-top: 30px;
+}
+.CardAll h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #060606;
+}
+.CardAll .spanPriceEdit {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 41.6158px;
+  line-height: 51px;
+}
+.CardAll .spanMonthEdit {
+  display: inline-block;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 136%;
+  color: #494949;
+  letter-spacing: 0.005em;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+.CardAll p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 136%;
+  margin-bottom: 30px;
+  color: #888888;
+  letter-spacing: 0.005em;
+}
+.CardAll .SpanItemsEdit {
+  display: block;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 136%;
+  letter-spacing: 0.005em;
+  color: #060606;
+  margin-left: 10px;
+}
+.CardAll .checkIconsEdit {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.CardAll .Icons {
+  color: #3da172;
+}
+
+.CardAll button {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid #ffcf00;
+  background-color: #ffffff;
+  border-radius: 12px;
+  width: 217px;
+  height: 54px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}

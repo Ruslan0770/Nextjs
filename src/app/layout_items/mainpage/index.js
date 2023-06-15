@@ -6,12 +6,18 @@ import { useState } from "react";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
 import Link from "next/link";
+import { type } from "os";
 
 export default function MainPage() {
   const [password, setPassword] = useState("");
 
   const [visible, setVisiblity] = useState(false);
 
+  const Numberonly = (input) =>{
+    let num = /[^0-9]/gi;
+    input.value=input.value.replace(num,"")
+  }
+ 
   return (
     <div className={styles.LoginHeader}>
       <div className={styles.loginAll}>
@@ -28,7 +34,7 @@ export default function MainPage() {
           <div className={styles.icons} onClick={() => setVisiblity(!visible)}>
             {visible ? <FaEye /> : <FaEyeSlash />}
           </div>
-          <Link href="/forgotpassword">
+          <Link href="/components/forgotpassword">
             <h6>Şifrəni unutdunuz?</h6>
           </Link>
           <button>Giriş</button>
