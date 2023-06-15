@@ -1,6 +1,7 @@
 .CardHeader {
   background-color: rgba(255, 255, 255, 1);
   text-align: center;
+  width: 100%;
 }
 .Card {
   display: inline-block;
@@ -8,8 +9,9 @@
   border-radius: 12px;
   filter: drop-shadow(0px 2px 14px rgba(46, 45, 116, 0.25));
   border: 1px solid rgba(255, 255, 255, 1);
-  width: 270px;
-  height: 500px;
+  width: 15%;
+  height: 80%;
+  padding-bottom: 2%;
   background: #ffffff;
   text-align: left;
 }
@@ -37,8 +39,9 @@
 }
 
 .CardAll {
-  margin-left: 25px;
-  margin-top: 30px;
+  width: 80%;
+  margin-top: 10%;
+  margin-left: 10%;
 }
 .CardAll h3 {
   font-style: normal;
@@ -102,7 +105,7 @@
   border: 2px solid #ffcf00;
   background-color: #ffffff;
   border-radius: 12px;
-  width: 217px;
+  width: 100%;
   height: 54px;
   font-style: normal;
   font-weight: 600;
